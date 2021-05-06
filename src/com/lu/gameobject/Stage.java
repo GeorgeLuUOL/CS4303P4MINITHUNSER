@@ -18,12 +18,13 @@ public class Stage {
     }
 
     public void draw() {
+        if(!container.isEmpty()){
         handleCollision();
         for (RigidBody r : container) {
             p.pushMatrix();
             r.draw();
             p.popMatrix();
-        }
+        }}
     }
 
     //go through all the rigidBody, see if it collide with any CollideBox

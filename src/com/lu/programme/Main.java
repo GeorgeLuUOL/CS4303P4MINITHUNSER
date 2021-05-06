@@ -2,9 +2,10 @@ package com.lu.programme;
 
 
 import com.lu.flight.Background;
+import com.lu.flight.GameController;
+import com.lu.flight.PlayerFighter;
+import com.lu.flight.StageForFlight;
 import processing.core.PApplet;
-
-import com.lu.artillery.GameController;
 
 
 public class Main extends PApplet {
@@ -14,8 +15,9 @@ public class Main extends PApplet {
 
     int r;
     Boolean start = true;
+    StageForFlight stage;
     GameController flightGameController;
-    Background bg;
+
 
     public void settings() {
         //fullScreen();
@@ -28,16 +30,20 @@ public class Main extends PApplet {
     //call before running
 
     public void setup() {
-
-
         processing = this;
-        flightGameController = new GameController();
-        bg = new Background();
+        flightGameController=new GameController();
+        flightGameController.init();
+
+
+
+
+
 
     }
 
     public void draw() {
-        bg.draw();
+       flightGameController.draw();
+      
 
 
     }
@@ -50,6 +56,11 @@ public class Main extends PApplet {
     public void keyReleased() {
 
 
+    }
+    public void mousePressed(){
+//        if(mouseButton==LEFT){
+//            System.out.println("left button pressed");
+//        }
     }
 
     public static void main(String... args) {
