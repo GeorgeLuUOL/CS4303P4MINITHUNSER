@@ -27,7 +27,7 @@ public class ButtonHandller {
             &&b.y<=mouseY&&mouseY<=(b.y+b.height)){
                 b.setHang(true);
                 if(p.mouseButton==37){
-                    stateController.setCurrentState();
+                    stateController.setCurrentState(b.stateTrans);
                 }
             }
             else {

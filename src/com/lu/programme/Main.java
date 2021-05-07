@@ -55,7 +55,9 @@ public class Main extends PApplet {
         start.setSize(30);
         start.setColour(textColor);
         start.setBgColoor(color);
+        start.setStateTrans(1);
         Button control=new Button("Control",300,300,200,50);
+        control.setStateTrans(3);
         control.setSize(30);
         control.setColour(textColor);
         control.setBgColoor(color);
@@ -65,7 +67,8 @@ public class Main extends PApplet {
         buttonHandller.addButton(start);
         buttonHandller.addButton(control);
 
-        //
+        //init state
+        stateController.setCurrentState(0);
 
 
 
@@ -74,8 +77,18 @@ public class Main extends PApplet {
 
     public void draw() {
         buttonHandller.handle();
-        canvas.draw();
+        //canvas.draw();
 
+        switch (stateController.currentState.tag){
+            case "menu":
+                canvas.draw();
+                break;
+            case "game":
+                flightGameController.draw();
+                break;
+
+
+        }
        //flightGameController.draw();
       
 
