@@ -46,12 +46,17 @@ public class Main extends PApplet {
         int[] textColor={73,47,37};
         Label label=new Label(400,100,"MINI THUNDER",50);
         label.setColour(textColor);
-        Button start=new Button("Start",350,200,100,50);
+        Button start=new Button("Start",300,200,200,50);
         start.setSize(30);
         start.setColour(textColor);
         start.setBgColoor(color);
+        Button control=new Button("Control",300,300,200,50);
+        control.setSize(30);
+        control.setColour(textColor);
+        control.setBgColoor(color);
         canvas.addComponent(label);
         canvas.addComponent(start);
+        canvas.addComponent(control);
 
 
 
