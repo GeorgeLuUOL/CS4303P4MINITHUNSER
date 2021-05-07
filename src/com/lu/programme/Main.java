@@ -5,6 +5,7 @@ import com.lu.flight.Background;
 import com.lu.flight.GameController;
 import com.lu.flight.PlayerFighter;
 import com.lu.flight.StageForFlight;
+import com.lu.uicomponent.Button;
 import com.lu.uicomponent.Canvas;
 import com.lu.uicomponent.Label;
 import com.lu.uicomponent.UIComponent;
@@ -39,11 +40,18 @@ public class Main extends PApplet {
         flightGameController.init();
         //build menu
         canvas=new Canvas();
+        //yellow
         int[] color={249,255,31};
-        Label label=new Label(200,200,"atest text",50);
-        label.setColour(color);
+        //brown
+        int[] textColor={73,47,37};
+        Label label=new Label(400,100,"MINI THUNDER",50);
+        label.setColour(textColor);
+        Button start=new Button("Start",350,200,100,50);
+        start.setSize(30);
+        start.setColour(textColor);
+        start.setBgColoor(color);
         canvas.addComponent(label);
-
+        canvas.addComponent(start);
 
 
 

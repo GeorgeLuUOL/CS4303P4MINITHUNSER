@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="222bca45-fe15-4dbd-8908-e7d23018596a" name="Default Changelist" comment="" />
+    <list default="true" id="222bca45-fe15-4dbd-8908-e7d23018596a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/lu/uicomponent/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lu/programme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/programme/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lu/uicomponent/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/uicomponent/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lu/uicomponent/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/uicomponent/Label.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +24,67 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="110">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Button.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="106" column="57" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1557#1558#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
+                <element signature="e#1618#1619#0" expanded="true" />
+                <element signature="e#1661#1662#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/out/artifacts/Artillery_jar/Artillery.jar!/processing/core/PApplet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1897">
+              <caret line="5909" column="16" selection-start-line="5909" selection-start-column="16" selection-end-line="5909" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -26,11 +92,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Canvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="93">
+              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Label.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+            <state relative-caret-position="352">
+              <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#291#292#0" expanded="true" />
@@ -100,30 +166,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lu/flight/GameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Background.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -150,7 +192,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/Stage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
+            <state relative-caret-position="559">
               <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
             </state>
           </provider>
@@ -161,8 +203,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -191,12 +233,13 @@
         <option value="$PROJECT_DIR$/src/com/lu/flight/GameController.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/UIComponent.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Canvas.java" />
+        <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Button.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Label.java" />
         <option value="$PROJECT_DIR$/src/com/lu/programme/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-65" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
@@ -320,7 +363,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
@@ -354,6 +397,16 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Request List" order="10" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -401,13 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/out/artifacts/Artillery_jar/Artillery.jar!/processing/core/PApplet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92752">
-          <caret line="4640" column="20" selection-start-line="4640" selection-start-column="16" selection-end-line="4640" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -519,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/Stage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Bullet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -545,21 +584,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/out/artifacts/Artillery_jar/Artillery.jar!/processing/core/PApplet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1897">
+          <caret line="5909" column="16" selection-start-line="5909" selection-start-column="16" selection-end-line="5909" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="93">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="106" column="57" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Label.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        <state relative-caret-position="352">
+          <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#291#292#0" expanded="true" />
@@ -596,8 +697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="110">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
         </state>
       </provider>
     </entry>

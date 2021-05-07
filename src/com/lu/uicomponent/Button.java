@@ -4,15 +4,27 @@ import com.lu.programme.Main;
 import processing.core.PApplet;
 import processing.core.PConstants;
 
-public class Label implements UIComponent {
+public class Button implements UIComponent {
     PApplet p= Main.processing;
     boolean visable=true;
     String tag;
     String text;
+    int width;
+    int height;
     int size;
     int x;
     int y;
+    int[] bgColoor={50,50,50};
     int[] colour={255,255,255};
+
+    public Button(String text, int x, int y,int width, int height){
+        this.text=text;
+        this.x=x;
+        this.y=y;
+        this.width=width;
+        this.height=height;
+    }
+
     public String getTag() {
         return tag;
     }
@@ -27,6 +39,22 @@ public class Label implements UIComponent {
 
     public void setText(String text) {
         this.text = text;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
     }
 
     public int getSize() {
@@ -53,6 +81,14 @@ public class Label implements UIComponent {
         this.y = y;
     }
 
+    public int[] getBgColoor() {
+        return bgColoor;
+    }
+
+    public void setBgColoor(int[] bgColoor) {
+        this.bgColoor = bgColoor;
+    }
+
     public int[] getColour() {
         return colour;
     }
@@ -61,24 +97,22 @@ public class Label implements UIComponent {
         this.colour = colour;
     }
 
-
-
-    public Label(int x, int y, String text,int size){
-        this.x=x;
-        this.y=y;
-        this.size=size;
-        this.text=text;
-    }
-    public void draw(){
+    @Override
+    public void draw() {
+        //draw background
+        p.fill(bgColoor[0],bgColoor[1],bgColoor[2]);
+        p.rect(x,y,width,height,90);
         p.fill(colour[0],colour[1],colour[2]);
         p.textSize(size);
         p.textAlign(PConstants.CENTER,PConstants.CENTER);
-        p.text(text,x,y);
+        p.text(text,x+ width/2,y+height/2);
+
     }
 
     @Override
     public void setVisable(Boolean b) {
         this.visable=b;
+
     }
 
     @Override
