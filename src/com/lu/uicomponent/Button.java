@@ -7,6 +7,7 @@ import processing.core.PConstants;
 public class Button implements UIComponent {
     PApplet p= Main.processing;
     boolean visable=true;
+    boolean hang=false;
     String tag;
     String text;
     int stateTrans;
@@ -15,6 +16,7 @@ public class Button implements UIComponent {
     int size;
     int x;
     int y;
+
     int[] bgColoor={50,50,50};
     int[] colour={255,255,255};
 
@@ -102,6 +104,14 @@ public class Button implements UIComponent {
         return colour;
     }
 
+    public boolean isHang() {
+        return hang;
+    }
+
+    public void setHang(boolean hang) {
+        this.hang = hang;
+    }
+
     public void setColour(int[] colour) {
         this.colour = colour;
     }
@@ -109,8 +119,16 @@ public class Button implements UIComponent {
     @Override
     public void draw() {
         //draw background
+        if(hang==false){
         p.fill(bgColoor[0],bgColoor[1],bgColoor[2]);
-        p.rect(x,y,width,height,90);
+        }
+        else {
+           p.fill(255,255,255);
+        }
+
+            p.rect(x,y,width,height,90);
+
+
         p.fill(colour[0],colour[1],colour[2]);
         p.textSize(size);
         p.textAlign(PConstants.CENTER,PConstants.CENTER);

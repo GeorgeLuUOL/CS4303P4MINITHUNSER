@@ -5,10 +5,7 @@ import com.lu.flight.Background;
 import com.lu.flight.GameController;
 import com.lu.flight.PlayerFighter;
 import com.lu.flight.StageForFlight;
-import com.lu.uicomponent.Button;
-import com.lu.uicomponent.Canvas;
-import com.lu.uicomponent.Label;
-import com.lu.uicomponent.UIComponent;
+import com.lu.uicomponent.*;
 import processing.core.PApplet;
 
 
@@ -20,6 +17,7 @@ public class Main extends PApplet {
     int r;
     StateController stateController;
     GameController flightGameController;
+    ButtonHandller buttonHandller;
     Canvas canvas;
 
 
@@ -37,6 +35,7 @@ public class Main extends PApplet {
         processing = this;
         stateController=new StateController();
         flightGameController=new GameController();
+        buttonHandller=new ButtonHandller(stateController);
         flightGameController.init();
         //assign states
         stateController.addState(0,"menu");
@@ -63,6 +62,8 @@ public class Main extends PApplet {
         canvas.addComponent(label);
         canvas.addComponent(start);
         canvas.addComponent(control);
+        buttonHandller.addButton(start);
+        buttonHandller.addButton(control);
 
         //
 
@@ -72,7 +73,9 @@ public class Main extends PApplet {
     }
 
     public void draw() {
+        buttonHandller.handle();
         canvas.draw();
+
        //flightGameController.draw();
       
 

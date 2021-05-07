@@ -16,9 +16,9 @@ public class Canvas {
     public void draw() {
         for (UIComponent c : container) {
             if (c.getVisable() == true) {
-                p.pushMatrix();
+                //p.pushMatrix();
                 c.draw();
-                p.popMatrix();
+                //p.popMatrix();
             }
 
         }
