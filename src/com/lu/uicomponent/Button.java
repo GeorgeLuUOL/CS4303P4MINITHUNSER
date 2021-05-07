@@ -9,6 +9,7 @@ public class Button implements UIComponent {
     boolean visable=true;
     String tag;
     String text;
+    int stateTrans;
     int width;
     int height;
     int size;
@@ -43,6 +44,14 @@ public class Button implements UIComponent {
 
     public int getWidth() {
         return width;
+    }
+
+    public int getStateTrans() {
+        return stateTrans;
+    }
+
+    public void setStateTrans(int stateTrans) {
+        this.stateTrans = stateTrans;
     }
 
     public void setWidth(int width) {

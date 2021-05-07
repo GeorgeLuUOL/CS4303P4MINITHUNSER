@@ -38,6 +38,12 @@ public class Main extends PApplet {
         stateController=new StateController();
         flightGameController=new GameController();
         flightGameController.init();
+        //assign states
+        stateController.addState(0,"menu");
+        stateController.addState(1,"game");
+        stateController.addState(2,"upgrade");
+        stateController.addState(3,"control");
+        stateController.addState(4,"gameOver");
         //build menu
         canvas=new Canvas();
         //yellow
@@ -57,6 +63,8 @@ public class Main extends PApplet {
         canvas.addComponent(label);
         canvas.addComponent(start);
         canvas.addComponent(control);
+
+        //
 
 
 
