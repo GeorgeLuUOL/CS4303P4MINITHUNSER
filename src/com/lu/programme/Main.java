@@ -18,8 +18,7 @@ public class Main extends PApplet {
 
 
     int r;
-    Boolean start = true;
-    StageForFlight stage;
+    StateController stateController;
     GameController flightGameController;
     Canvas canvas;
 
@@ -36,6 +35,7 @@ public class Main extends PApplet {
 
     public void setup() {
         processing = this;
+        stateController=new StateController();
         flightGameController=new GameController();
         flightGameController.init();
         //build menu

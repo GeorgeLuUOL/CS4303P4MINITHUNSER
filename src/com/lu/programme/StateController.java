@@ -6,8 +6,9 @@ public class StateController {
     State currentState;
     HashMap<Integer,State> stateMap=new HashMap<>();
 
-    public void addState(){
-
+    public void addState(int number, String tag){
+        State s=new State(number,tag);
+        stateMap.put(number,s);
     }
     public void setCurrentState(State s){
         this.currentState=s;
