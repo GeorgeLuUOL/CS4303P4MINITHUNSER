@@ -35,7 +35,7 @@ public class Stage {
                     for (ColideBox ColliderForR : r.getColideBox()) {
                         if (Math.abs(ColliderForR.getX() - c.getX()) <= Math.abs(ColliderForR.getWidth() - c.getWidth())
                                 &&Math.abs(ColliderForR.getY() - c.getY()) <= Math.abs(ColliderForR.getHeight() - c.getHeight())) {
-                            r.onCollisioin();
+                            r.onCollision(c.getR());
                             ColliderForR.setColision(true);
                         }
                     }

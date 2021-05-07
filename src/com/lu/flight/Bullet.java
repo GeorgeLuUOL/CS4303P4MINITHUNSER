@@ -1,5 +1,6 @@
 package com.lu.flight;
 
+import com.lu.gameobject.ColideBox;
 import com.lu.gameobject.RigidBody;
 import com.lu.gameobject.Shape;
 import com.lu.gameobject.Texture;
@@ -11,8 +12,15 @@ public class Bullet {
     RigidBody r;
     public Bullet(int x, int y, int angle){
         Texture t=new Texture(x,y,s);
-        r=new RigidBody(t);
+        r=new RigidBody(t){
+            @Override
+            public void onCollision(RigidBody r) {
+                explode();
+            }
+        };
         r.setApplyGravity(false);
+        r.addColideBox(new ColideBox("rectangle",x,y,5,5,r));
+        r.setTag("bullet");
         r.setVelocity(new PVector((float) (muzzelVelocity * Math.cos(Math.toRadians(angle))), (float) -(muzzelVelocity * Math.sin(Math.toRadians(angle)))));
     }
     public void explode() {

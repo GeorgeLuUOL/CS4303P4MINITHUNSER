@@ -19,21 +19,6 @@ public class StageForArtillery extends Stage {
                             r.onCollision(c.getR());
                             ColliderForR.setColision(true);
 
-//                            if(r.getTag().equals("shell")){
-//                                System.out.println("shell collision");
-//                                r.trigger();
-//                                if(c.getR().getTag().equals("tank")){
-//                                    c.getR().trigger();
-//                                }
-//                                if(c.getR().getTag().equals("block")){
-//                                    c.getR().trigger();
-//                                }
-//
-//                               //super.removeRigidBody(r);
-//                            }
-
-                            //System.out.println("collision detected"+ColliderForR.getX()+" "+ColliderForR.getY()+" "+c.getX()+" "+c.getY());
-                            //System.out.println(ColliderForR.getWidth()+" "+ColliderForR.getHeight());
                             }
                         }
                     }
