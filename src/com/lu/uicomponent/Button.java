@@ -10,6 +10,7 @@ public class Button implements UIComponent {
     boolean hang=false;
     String tag;
     String text;
+    int currState;
     int stateTrans;
     int width;
     int height;
@@ -50,6 +51,14 @@ public class Button implements UIComponent {
 
     public int getStateTrans() {
         return stateTrans;
+    }
+
+    public int getCurrState() {
+        return currState;
+    }
+
+    public void setCurrState(int currState) {
+        this.currState = currState;
     }
 
     public void setStateTrans(int stateTrans) {

@@ -10,6 +10,15 @@ public class StateController {
         State s=new State(number,tag);
         stateMap.put(number,s);
     }
+
+    public int getCurrentState() {
+        return currentState.getNumber();
+    }
+
+    public void setCurrentState(State currentState) {
+        this.currentState = currentState;
+    }
+
     public void setCurrentState(int s){
         this.currentState=stateMap.get(s);
     }

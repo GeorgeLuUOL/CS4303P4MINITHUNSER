@@ -19,6 +19,7 @@ public class Main extends PApplet {
     GameController flightGameController;
     ButtonHandller buttonHandller;
     Canvas canvas;
+    Canvas canvasForGame;
 
 
     public void settings() {
@@ -43,22 +44,26 @@ public class Main extends PApplet {
         stateController.addState(2,"upgrade");
         stateController.addState(3,"control");
         stateController.addState(4,"gameOver");
-        //build menu
-        canvas=new Canvas();
+        //create uniformed color theme
         //yellow
         int[] color={249,255,31};
         //brown
         int[] textColor={73,47,37};
+        //build menu
+        canvas=new Canvas();
+
         Label label=new Label(400,100,"MINI THUNDER",50);
         label.setColour(textColor);
         Button start=new Button("Start",300,200,200,50);
         start.setSize(30);
         start.setColour(textColor);
         start.setBgColoor(color);
+        start.setCurrState(0);
         start.setStateTrans(1);
         Button control=new Button("Control",300,300,200,50);
         control.setStateTrans(3);
         control.setSize(30);
+        control.setCurrState(0);
         control.setColour(textColor);
         control.setBgColoor(color);
         canvas.addComponent(label);
@@ -66,6 +71,8 @@ public class Main extends PApplet {
         canvas.addComponent(control);
         buttonHandller.addButton(start);
         buttonHandller.addButton(control);
+
+        // build canvas for game
 
         //init state
         stateController.setCurrentState(0);
@@ -85,6 +92,8 @@ public class Main extends PApplet {
                 break;
             case "game":
                 flightGameController.draw();
+                break;
+            case "control":
                 break;
 
 
