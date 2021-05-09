@@ -104,6 +104,7 @@ public class Main extends PApplet {
                 fill(1,255,255);
                 textSize(20);
                 text("Score: "+flightGameController.score,50,20);
+                text("level: "+flightGameController.level,150,20);
                 break;
             case "control":
                 break;

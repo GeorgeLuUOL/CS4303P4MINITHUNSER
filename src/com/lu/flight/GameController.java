@@ -8,10 +8,10 @@ import java.util.ArrayList;
 
 public class GameController {
     int timmer=0;
-    int level;
-    int damageLevel;
-    int maneuverLevel;
-    int hp=10;
+    public int level;
+    public int damageLevel;
+    public int maneuverLevel;
+    public int hp=10;
     public int score=0;
     PApplet p= Main.processing;
     StageForFlight stage=new StageForFlight();;
@@ -45,9 +45,11 @@ public class GameController {
         if(bg.r.getX()<=-800){
             bg.r.setX(0);
         }
+        level=score/10;
         //adding enemy to the stage randomly
-        if(timmer%(50-2*level)==0){
-        ft=new FoeFighter(800,100+(int) (Math.random()*400),3+level,2+level/2);
+        int wave=(50-2*level)<20?20:(50-2*level);
+        if(timmer%wave==0){
+        ft=new FoeFighter(800,100+(int) (Math.random()*400),(3+level)>10?10:(3+level),2+level/2);
         foeFighterArr.add(ft);
         stage.addRigidBody(ft.r);}
         //inc score when foe shot down
