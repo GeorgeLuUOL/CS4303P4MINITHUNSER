@@ -15,5 +15,6 @@ public class StageForFlight extends Stage {
             this.removeRigidBody(r);
         }
     }
+
     }
 }

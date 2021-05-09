@@ -11,12 +11,14 @@ public class FoeFighter extends Aircraft {
     int x;
     int y;
     int velocity;
+    int hp;
     Shape body;
     Texture t;
     public RigidBody r;
     PApplet p;
 
-    public FoeFighter(int x, int y, int velocity){
+    public FoeFighter(int x, int y, int velocity, int hp){
+        this.hp=hp;
         this.x=x;
         this.y=y;
         this.velocity=velocity;
@@ -37,6 +39,9 @@ public class FoeFighter extends Aircraft {
         p=r.getP();
     }
     public void hit(){
+        this.hp--;
+    }
+    public void destroied(){
         this.r.getStage().removeRigidBody(r);
     }
 }

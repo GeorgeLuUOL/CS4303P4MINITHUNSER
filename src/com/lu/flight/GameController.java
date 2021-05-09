@@ -8,25 +8,32 @@ import java.util.ArrayList;
 
 public class GameController {
     int timmer=0;
+    int level;
+    int damageLevel;
+    int maneuverLevel;
+    public int score=0;
     PApplet p= Main.processing;
     StageForFlight stage=new StageForFlight();;
     Background bg;
     PlayerFighter pf;
     ArrayList<Bullet> bulletArr=new ArrayList(50);
-    ArrayList<FoeFighter> FoeFighterArr=new ArrayList<>(50);
+    ArrayList<FoeFighter> foeFighterArr=new ArrayList<>(50);
     FoeFighter ft;
     //attribution for game
-    float maneuverability =0.2f;
-    public GameController(){
-       init();
+    float maneuverability =0.1f;
+    public GameController(int level, int damageLevel,int maneuverLevel){
+       init(level, damageLevel, maneuverLevel);
     }
-    public void init(){
+    public void init(int level, int damageLevel,int maneuverLevel){
+        this.level=level;
+        this.damageLevel=damageLevel;
+        this.maneuverLevel=maneuverLevel;
          bg = new Background();
          pf=new PlayerFighter();
         stage.addRigidBody(bg.r);
         stage.addRigidBody(pf.r);
-        ft=new FoeFighter(800,300,1);
-        stage.addRigidBody(ft.r);
+        //ft=new FoeFighter(800,300,1,1+level/2);
+        //stage.addRigidBody(ft.r);
     }
 
     public void draw(){
@@ -38,9 +45,17 @@ public class GameController {
             bg.r.setX(0);
         }
         //adding enemy to the stage randomly
-        if(timmer%50==0){
-        ft=new FoeFighter(800,100+(int) (Math.random()*400),3+timmer/1000);
+        if(timmer%(50-2*level)==0){
+        ft=new FoeFighter(800,100+(int) (Math.random()*400),3+level,1+level/2);
+        foeFighterArr.add(ft);
         stage.addRigidBody(ft.r);}
+        //inc score when foe shot down
+        for(FoeFighter f:foeFighterArr){
+            if (f.hp<=0){
+                f.destroied();
+                score++;
+            }
+        }
         //movement for player fighter
         if(Math.abs(p.mouseX-pf.r.getX())>1){
         int mouseX=p.mouseX;
@@ -48,7 +63,7 @@ public class GameController {
         int posX=pf.r.getX()+30;
         int posY=pf.r.getY();
         //float slope= (float) Math.sqrt((mouseX-posX)*(mouseX-posX)+(mouseY-posY)*(mouseY-posY));
-        pf.r.setVelocity(new PVector(maneuverability*(mouseX-posX),maneuverability*(mouseY-posY)));
+        pf.r.setVelocity(new PVector(maneuverability*maneuverLevel*(mouseX-posX),maneuverability*maneuverLevel*(mouseY-posY)));
 
         }
         //fire
@@ -75,8 +90,8 @@ public class GameController {
         }
 
         //show collider
-        if(bulletArr.size()>=1){
-        System.out.println(bulletArr.get(0).r.getColideBox().get(0).toString());}
+//        if(bulletArr.size()>=1){
+//        System.out.println(bulletArr.get(0).r.getColideBox().get(0).toString());}
 
 
     }

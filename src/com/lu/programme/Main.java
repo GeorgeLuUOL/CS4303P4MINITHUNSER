@@ -15,6 +15,9 @@ public class Main extends PApplet {
 
 
     int r;
+    int stageLevel=1;
+    int damageLevel=1;
+    int maneuverLevel=1;
     StateController stateController;
     GameController flightGameController;
     ButtonHandller buttonHandller;
@@ -35,9 +38,9 @@ public class Main extends PApplet {
     public void setup() {
         processing = this;
         stateController=new StateController();
-        flightGameController=new GameController();
+        flightGameController=new GameController(stageLevel,damageLevel,maneuverLevel);
         buttonHandller=new ButtonHandller(stateController);
-        flightGameController.init();
+        //flightGameController.init();
         //assign states
         stateController.addState(0,"menu");
         stateController.addState(1,"game");
@@ -74,6 +77,8 @@ public class Main extends PApplet {
 
         // build canvas for game
 
+        canvasForGame=new Canvas();
+
         //init state
         stateController.setCurrentState(0);
 
@@ -91,7 +96,14 @@ public class Main extends PApplet {
                 canvas.draw();
                 break;
             case "game":
+
                 flightGameController.draw();
+                //crate panel for info
+                fill(210,210,210,100);
+                rect(0,0,800,50);
+                fill(1,255,255);
+                textSize(20);
+                text("Score: "+flightGameController.score,50,20);
                 break;
             case "control":
                 break;
