@@ -22,6 +22,7 @@ public class GameController {
     ArrayList<FoeFighter> foeFighterArr = new ArrayList<>(50);
     ArrayList<Box> boxArr = new ArrayList<>(20);
     FoeFighter ft;
+    Box b;
     //attribution for game
     float maneuverability = 0.1f;
 
@@ -29,13 +30,16 @@ public class GameController {
         init(level, damageLevel, maneuverLevel);
     }
 
+
     public void init(int level, int damageLevel, int maneuverLevel) {
         this.level = level;
         this.damageLevel = damageLevel;
         this.maneuverLevel = maneuverLevel;
+        //b=new Box(800,100,1);
         bg = new Background();
         pf = new PlayerFighter();
         stage.addRigidBody(bg.r);
+       // stage.addRigidBody(b.r);
         stage.addRigidBody(pf.r);
         //ft=new FoeFighter(800,300,1,1+level/2);
         //stage.addRigidBody(ft.r);
@@ -53,34 +57,55 @@ public class GameController {
         }
         level = score / 10;
         //adding box randomly
-        if (timmer % 10 == 0) {
+        if (timmer % 100 == 0) {
             double r1=Math.random();
-            if (r1 < 0.2) {
-                Box b;
+            if (r1 <= 0.2) {
+
                 double r=  Math.random();
                 if (r < 0.5) {
-                    //System.out.println("----------");
-                    b=new Box(800,100 + (int) (Math.random() * 400),1);
+                    System.out.println("---------11-");
+                    b=new Box(800,0 + (int) (Math.random() * 200),1);
+                    stage.addRigidBody(b.r);
+                    System.out.println("seems added");
+                    boxArr.add(b);
+
                 }
-                else if(r>=0.5&&r<0.75){
-                    b=new Box(800,100 + (int) (Math.random() * 400),2);
+                else if(r>=0.5&&r<=0.75){
+                    System.out.println("---------22-");
+                    b=new Box(800,0 + (int) (Math.random() * 200),2);
+                    stage.addRigidBody(b.r);
+                    System.out.println("seems added");
+                    boxArr.add(b);
+
                 }
-                else {
-                    b=new Box(800,100 + (int) (Math.random() * 400),3);
+                else if(r>=0.75 ){
+                    System.out.println("---------33-");
+                   b=new Box(800,0 + (int) (Math.random() * 200),3);
+                    stage.addRigidBody(b.r);
+                    System.out.println("seems added");
+                    boxArr.add(b);
                 }
-                boxArr.add(b);
-                stage.addRigidBody(b.r);
+
             }
         }
         //adding enemy to the stage randomly
         int wave = (50 - 2 * level) < 20 ? 20 : (50 - 2 * level);
         if (timmer % wave == 0) {
             ft = new FoeFighter(800, 100 + (int) (Math.random() * 400), (3 + level) > 10 ? 10 : (3 + level), 2 + level / 2);
+            ft.damageTaken=damageLevel;
             foeFighterArr.add(ft);
             stage.addRigidBody(ft.r);
         }
         //inc score when foe shot down
+        //dec hp if foe pass the line
         for (FoeFighter f : foeFighterArr) {
+            if(f.r.getX()<=0){
+                f.destroyed();
+                pf.hp--;
+                ArrayList<FoeFighter> temp = (ArrayList<FoeFighter>) foeFighterArr.clone();
+                temp.remove(f);
+                foeFighterArr = temp;
+            }
             if (f.hp <= 0) {
                 f.destroyed();
                 score++;
@@ -94,17 +119,19 @@ public class GameController {
         for (Box b : boxArr) {
             if (b.collected == true) {
                 if (b.type == 1) {
-                    hp = 10;
+                    pf.hp = 10;
                 } else if (b.type == 2) {
                     damageLevel++;
                 } else if (b.type == 3) {
-                    maneuverLevel += 0.01f;
+                    maneuverLevel +=1;
                 }
+                b.destory();
+                ArrayList<Box> temp = (ArrayList<Box>) boxArr.clone();
+                temp.remove(b);
+                boxArr = temp;
             }
-            b.destory();
-            ArrayList<Box> temp = (ArrayList<Box>) boxArr.clone();
-            temp.remove(b);
-            boxArr = temp;
+
+
         }
         //movement for player fighter
         if (Math.abs(p.mouseX - pf.r.getX()) > 1) {

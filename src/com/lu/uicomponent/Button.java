@@ -29,6 +29,9 @@ public class Button implements UIComponent {
         this.height=height;
     }
 
+    public void trigger(){
+
+    }
     public String getTag() {
         return tag;
     }

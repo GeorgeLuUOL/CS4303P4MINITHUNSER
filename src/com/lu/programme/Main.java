@@ -22,7 +22,7 @@ public class Main extends PApplet {
     GameController flightGameController;
     ButtonHandller buttonHandller;
     Canvas canvas;
-    Canvas canvasForGame;
+    Canvas canvasForGameOver;
 
 
     public void settings() {
@@ -56,6 +56,7 @@ public class Main extends PApplet {
         canvas=new Canvas();
 
         Label label=new Label(400,100,"MINI THUNDER",50);
+        Panel defaultPanel=new Panel();
         label.setColour(textColor);
         Button start=new Button("Start",300,200,200,50);
         start.setSize(30);
@@ -63,22 +64,40 @@ public class Main extends PApplet {
         start.setBgColoor(color);
         start.setCurrState(0);
         start.setStateTrans(1);
-        Button control=new Button("Control",300,300,200,50);
+        Button control=new Button("Control",300,500,200,50);
         control.setStateTrans(3);
         control.setSize(30);
         control.setCurrState(0);
         control.setColour(textColor);
         control.setBgColoor(color);
+        canvas.addComponent(defaultPanel);
         canvas.addComponent(label);
         canvas.addComponent(start);
         canvas.addComponent(control);
         buttonHandller.addButton(start);
         buttonHandller.addButton(control);
 
-        // build canvas for game
+        // build canvas for gameOver interface
 
-        canvasForGame=new Canvas();
-
+        canvasForGameOver=new Canvas();
+        label=new Label(400,100,"GAME OVER",50);
+        label.setColour(textColor);
+        Button backToMenu=new Button("Back To Menu",300,300,250,50){
+            @Override
+            public void trigger() {
+                flightGameController=new GameController(stageLevel,damageLevel,maneuverLevel);
+                //stateController.setCurrentState(0);
+            }
+        };
+        backToMenu.setStateTrans(0);
+        backToMenu.setCurrState(4);
+        backToMenu.setSize(30);
+        backToMenu.setColour(textColor);
+        backToMenu.setBgColoor(color);
+        canvasForGameOver.addComponent(defaultPanel);
+        canvasForGameOver.addComponent(label);
+        canvasForGameOver.addComponent(backToMenu);
+        buttonHandller.addButton(backToMenu);
         //init state
         stateController.setCurrentState(0);
 
@@ -93,6 +112,7 @@ public class Main extends PApplet {
 
         switch (stateController.currentState.tag){
             case "menu":
+                stateController.setCurrentState(0);
                 canvas.draw();
                 break;
             case "game":
@@ -109,10 +129,19 @@ public class Main extends PApplet {
                 fill(88,255,122);
                 rect(250,10,5*flightGameController.hp,20);
                 fill(1,255,255);
-                text("damage: "+flightGameController.damageLevel,320,20);
-                text("maneuverability: "+flightGameController.maneuverLevel,400,20);
+                text("damage: "+flightGameController.damageLevel,350,20);
+                text("maneuverability: "+flightGameController.maneuverLevel,500,20);
+                if(flightGameController.hp<=0){
+                    stateController.setCurrentState(4);
+                }
                 break;
             case "control":
+                break;
+
+            case "gameOver":
+                canvasForGameOver.draw();
+                textSize(50);
+                text("Your Score: "+flightGameController.score,400,200);
                 break;
 
 

@@ -22,6 +22,7 @@ public class ButtonHandller {
     public void handle(){
         mouseX=p.mouseX;
         mouseY=p.mouseY;
+        //System.out.println(stateController.getCurrentState());
         for(Button b:buttonArr){
             if(b.x<=mouseX&&mouseX<=(b.x+b.width)
             &&b.y<=mouseY&&mouseY<=(b.y+b.height)
@@ -29,6 +30,7 @@ public class ButtonHandller {
                 b.setHang(true);
                 if(p.mouseButton==37){
                     stateController.setCurrentState(b.stateTrans);
+                    b.trigger();
                 }
             }
             else {

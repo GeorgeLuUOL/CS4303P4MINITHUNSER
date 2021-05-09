@@ -46,7 +46,7 @@ public class Box {
         };
         r.addColideBox(new ColideBox("rectangle", this.x, this.y, 25, 25, r));
         r.setApplyGravity(false);
-        r.setVelocity(new PVector(-3, -2));
+        r.setVelocity(new PVector(-3, 1));
         p = r.getP();
     }
 

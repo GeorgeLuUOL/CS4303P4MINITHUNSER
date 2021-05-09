@@ -12,6 +12,7 @@ public class FoeFighter extends Aircraft {
     int y;
     int velocity;
     int hp;
+    public int damageTaken=1;
     Shape body;
     Texture t;
     public RigidBody r;
@@ -43,7 +44,7 @@ public class FoeFighter extends Aircraft {
         p=r.getP();
     }
     public void hit(){
-        this.hp--;
+        this.hp-=damageTaken;
     }
     public void collide(){
         this.hp-=100;
