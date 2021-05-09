@@ -11,7 +11,7 @@ public class GameController {
     public int level;
     public int damageLevel;
     public int maneuverLevel;
-    public int hp=10;
+    public int hp=1;
     public int score=0;
     PApplet p= Main.processing;
     StageForFlight stage=new StageForFlight();;
@@ -38,8 +38,10 @@ public class GameController {
     }
 
     public void draw(){
+        //System.out.println(stage.size());
         //update time
         timmer++;
+        this.hp=pf.hp;
         //draw
         this.stage.draw();
         if(bg.r.getX()<=-800){
@@ -55,7 +57,7 @@ public class GameController {
         //inc score when foe shot down
         for(FoeFighter f:foeFighterArr){
             if (f.hp<=0){
-                f.destroied();
+                f.destroyed();
                 score++;
                 ArrayList<FoeFighter> temp= (ArrayList<FoeFighter>) foeFighterArr.clone();
                 temp.remove(f);

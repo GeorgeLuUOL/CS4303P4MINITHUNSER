@@ -15,7 +15,8 @@ public class Bullet {
         r=new RigidBody(t){
             @Override
             public void onCollision(RigidBody r) {
-                explode();
+                if(r.getTag().equals("foe")){
+                explode();}
             }
         };
         r.setApplyGravity(false);

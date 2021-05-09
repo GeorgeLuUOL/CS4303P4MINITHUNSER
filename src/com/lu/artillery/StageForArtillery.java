@@ -12,8 +12,8 @@ public class StageForArtillery extends Stage {
                 //System.out.println(c.toString());
                 if (c.getR() != r) {
                     for (ColideBox ColliderForR : r.getColideBox()) {
-                        if (Math.abs(ColliderForR.getX() - c.getX()) <= Math.abs(ColliderForR.getWidth() + c.getWidth())
-                                &&Math.abs(ColliderForR.getY() - c.getY()) <= Math.abs(ColliderForR.getHeight() + c.getHeight())) {
+                        if (Math.abs(ColliderForR.getX() - (c.getX()+c.getWidth()/2)) <= Math.abs(ColliderForR.getWidth() + c.getWidth())
+                                &&Math.abs(ColliderForR.getY() - (c.getY()+c.getHeight()/2)) <= Math.abs(ColliderForR.getHeight() + c.getHeight())) {
 
                             if(r.getApplyColision()==true){
                             r.onCollision(c.getR());

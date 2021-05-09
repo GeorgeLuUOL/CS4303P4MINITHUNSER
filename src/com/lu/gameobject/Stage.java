@@ -33,9 +33,10 @@ public class Stage {
             for (ColideBox c : colliderContainer) {
                 if (c.getR() != r) {
                     for (ColideBox ColliderForR : r.getColideBox()) {
-                        if (Math.abs(ColliderForR.getX() - c.getX()) <= Math.abs(ColliderForR.getWidth() - c.getWidth())
-                                &&Math.abs(ColliderForR.getY() - c.getY()) <= Math.abs(ColliderForR.getHeight() - c.getHeight())) {
+                        if (Math.abs(ColliderForR.getX() - c.getX()) <= Math.abs(ColliderForR.getWidth() + c.getWidth())
+                                &&Math.abs(ColliderForR.getY() - c.getY()) <= Math.abs(ColliderForR.getHeight() + c.getHeight())) {
                             r.onCollision(c.getR());
+                            System.out.println("collidion: "+r.getTag());
                             ColliderForR.setColision(true);
                         }
                     }
