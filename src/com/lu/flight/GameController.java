@@ -11,6 +11,7 @@ public class GameController {
     int level;
     int damageLevel;
     int maneuverLevel;
+    int hp=10;
     public int score=0;
     PApplet p= Main.processing;
     StageForFlight stage=new StageForFlight();;
@@ -46,7 +47,7 @@ public class GameController {
         }
         //adding enemy to the stage randomly
         if(timmer%(50-2*level)==0){
-        ft=new FoeFighter(800,100+(int) (Math.random()*400),3+level,1+level/2);
+        ft=new FoeFighter(800,100+(int) (Math.random()*400),3+level,2+level/2);
         foeFighterArr.add(ft);
         stage.addRigidBody(ft.r);}
         //inc score when foe shot down
@@ -54,7 +55,11 @@ public class GameController {
             if (f.hp<=0){
                 f.destroied();
                 score++;
+                ArrayList<FoeFighter> temp= (ArrayList<FoeFighter>) foeFighterArr.clone();
+                temp.remove(f);
+                foeFighterArr=temp;
             }
+
         }
         //movement for player fighter
         if(Math.abs(p.mouseX-pf.r.getX())>1){
