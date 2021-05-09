@@ -108,6 +108,9 @@ public class Main extends PApplet {
                 text("HP: ",230,20);
                 fill(88,255,122);
                 rect(250,10,5*flightGameController.hp,20);
+                fill(1,255,255);
+                text("damage: "+flightGameController.damageLevel,320,20);
+                text("maneuverability: "+flightGameController.maneuverLevel,400,20);
                 break;
             case "control":
                 break;

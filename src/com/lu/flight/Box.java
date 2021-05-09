@@ -8,6 +8,7 @@ import processing.core.PApplet;
 import processing.core.PVector;
 
 public class Box {
+    boolean collected=false;
     int x;
     int y;
     int velocity;
@@ -29,6 +30,9 @@ public class Box {
         } else if (type == 2) {
             body = new Shape("image", 0, 0, 50, 50, "box-damage.png");
         }
+        else if(type==3){
+            body = new Shape("image", 0, 0, 50, 50, "box-man.png");
+        }
         t = new Texture(this.x, this.y, body);
         r = new RigidBody(t) {
             @Override
@@ -36,6 +40,7 @@ public class Box {
                 //super.onCollision(r);
                 if (r.getTag().equals("player")) {
                     System.out.println("collect box");
+                    collected();
                 }
             }
         };
@@ -43,5 +48,12 @@ public class Box {
         r.setApplyGravity(false);
         r.setVelocity(new PVector(-3, -2));
         p = r.getP();
+    }
+
+    public void collected(){
+        collected=true;
+    }
+    public void destory(){
+        this.r.getStage().removeRigidBody(r);
     }
 }
