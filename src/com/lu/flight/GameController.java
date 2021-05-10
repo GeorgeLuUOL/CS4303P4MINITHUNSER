@@ -57,7 +57,7 @@ public class GameController {
         }
         level = score / 10;
         //adding box randomly
-        if (timmer % 100 == 0) {
+        if (timmer % 200 == 0) {
             double r1=Math.random();
             if (r1 <= 0.2) {
 
@@ -91,11 +91,17 @@ public class GameController {
         //adding enemy to the stage randomly
         int wave = (50 - 2 * level) < 20 ? 20 : (50 - 2 * level);
         if (timmer % wave == 0) {
-            ft = new FoeFighter(800, 100 + (int) (Math.random() * 400), (3 + level) > 10 ? 10 : (3 + level), 2 + level / 2);
+            if(Math.random()<0.1){
+                ft = new FoeFighter(800, 100 + (int) (Math.random() * 400), (3 + level) > 10 ? 10 : (3 + level), 2 + level / 2,true);
+            }
+            else{
+            ft = new FoeFighter(800, 100 + (int) (Math.random() * 400), (3 + level) > 10 ? 10 : (3 + level), 2 + level / 2);}
             ft.damageTaken=damageLevel;
             foeFighterArr.add(ft);
             stage.addRigidBody(ft.r);
+
         }
+
         //inc score when foe shot down
         //dec hp if foe pass the line
         for (FoeFighter f : foeFighterArr) {

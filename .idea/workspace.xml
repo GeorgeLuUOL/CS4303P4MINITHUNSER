@@ -3,37 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="222bca45-fe15-4dbd-8908-e7d23018596a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/artillery/Arrow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/artillery/Block$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/artillery/Block.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/artillery/Shell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/artillery/Sprite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/artillery/StageForArtillery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/artillery/Tank$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/artillery/Tank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/artillery/Terrain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/Box.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/uicomponent/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/uicomponent/Button.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/uicomponent/ButtonHandller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/uicomponent/ButtonHandller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/uicomponent/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/uicomponent/Panel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/artillery/Arrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/artillery/Block.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/artillery/Shell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/artillery/Sprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/artillery/StageForArtillery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/artillery/Tank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/artillery/Terrain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/flight/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/flight/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lu/flight/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/flight/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/programme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/programme/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/uicomponent/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/uicomponent/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,14 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Box.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="484">
               <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding>
-                <element signature="e#1501#1502#0" expanded="true" />
-                <element signature="e#1531#1532#0" expanded="true" />
-                <element signature="e#1558#1559#0" expanded="true" />
-                <element signature="e#1577#1578#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="176">
+              <caret line="94" column="131" selection-start-line="94" selection-start-column="131" selection-end-line="94" selection-end-column="131" />
             </state>
           </provider>
         </entry>
@@ -83,21 +52,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Button.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
+            <state relative-caret-position="660">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#1055#1056#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            <state relative-caret-position="304">
+              <caret line="89" column="54" lean-forward="true" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+              <folding>
+                <element signature="e#2791#2792#0" expanded="true" />
+                <element signature="e#2850#2851#0" expanded="true" />
+                <element signature="e#2933#2934#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
+            <state relative-caret-position="1342">
               <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
             </state>
           </provider>
@@ -114,14 +84,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="550">
               <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Canvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="264">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -145,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="283">
               <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
             </state>
           </provider>
@@ -189,17 +155,17 @@
         <option value="$PROJECT_DIR$/src/com/lu/artillery/StageForArtillery.java" />
         <option value="$PROJECT_DIR$/src/com/lu/gameobject/Stage.java" />
         <option value="$PROJECT_DIR$/src/com/lu/flight/PlayerFighter.java" />
-        <option value="$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java" />
         <option value="$PROJECT_DIR$/src/com/lu/flight/Box.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java" />
-        <option value="$PROJECT_DIR$/src/com/lu/flight/GameController.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Button.java" />
         <option value="$PROJECT_DIR$/src/com/lu/programme/Main.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java" />
+        <option value="$PROJECT_DIR$/src/com/lu/flight/GameController.java" />
+        <option value="$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-65" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
@@ -211,7 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,7 +226,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -416,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620590205799</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="levelsystem">
+      <created>1620596649042</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620596649042</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -519,41 +492,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Arrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Shell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Terrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Tank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Arrow.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Block.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Shell.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Terrain.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Tank.java" />
     <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/UIComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -589,13 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/StageForArtillery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/StageForArtillery.java" />
     <entry file="file://$PROJECT_DIR$/src/com/lu/programme/StateController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-83">
@@ -661,6 +598,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Aircraft.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -668,23 +612,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Box.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="660">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1531#1532#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="264">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -695,56 +650,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Canvas.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="283">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/flight/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="176">
+          <caret line="94" column="131" selection-start-line="94" selection-start-column="131" selection-end-line="94" selection-end-column="131" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Button.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="304">
+          <caret line="89" column="54" lean-forward="true" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
           <folding>
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#2791#2792#0" expanded="true" />
+            <element signature="e#2850#2851#0" expanded="true" />
+            <element signature="e#2933#2934#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
         </state>
       </provider>
     </entry>
