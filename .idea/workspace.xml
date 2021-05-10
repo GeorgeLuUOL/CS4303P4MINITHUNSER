@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="222bca45-fe15-4dbd-8908-e7d23018596a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/uicomponent/ButtonHandller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/uicomponent/ButtonHandller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/flight/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/flight/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lu/programme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/programme/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Box.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Aircraft.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="268">
               <caret line="89" column="54" lean-forward="true" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
               <folding>
                 <element signature="e#2791#2792#0" expanded="true" />
@@ -73,10 +59,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Background.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+            <state relative-caret-position="290">
+              <caret line="146" column="79" selection-start-line="146" selection-start-column="79" selection-end-line="146" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -158,10 +153,10 @@
         <option value="$PROJECT_DIR$/src/com/lu/flight/Box.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Button.java" />
-        <option value="$PROJECT_DIR$/src/com/lu/programme/Main.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java" />
         <option value="$PROJECT_DIR$/src/com/lu/flight/GameController.java" />
         <option value="$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java" />
+        <option value="$PROJECT_DIR$/src/com/lu/programme/Main.java" />
       </list>
     </option>
   </component>
@@ -389,14 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620596649042</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="levelsystem">
+      <created>1620648828009</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620648828009</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -405,7 +407,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33002833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42492917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,13 +593,6 @@
     <entry file="file://$PROJECT_DIR$/data/box-hp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Background.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Box.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -616,13 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -666,13 +654,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="268">
           <caret line="89" column="54" lean-forward="true" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
           <folding>
             <element signature="e#2791#2792#0" expanded="true" />
             <element signature="e#2850#2851#0" expanded="true" />
             <element signature="e#2933#2934#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="146" column="79" selection-start-line="146" selection-start-column="79" selection-end-line="146" selection-end-column="79" />
         </state>
       </provider>
     </entry>

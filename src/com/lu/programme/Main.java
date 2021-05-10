@@ -23,6 +23,7 @@ public class Main extends PApplet {
     ButtonHandller buttonHandller;
     Canvas canvas;
     Canvas canvasForGameOver;
+    Canvas canvasForControl;
 
 
     public void settings() {
@@ -98,6 +99,19 @@ public class Main extends PApplet {
         canvasForGameOver.addComponent(label);
         canvasForGameOver.addComponent(backToMenu);
         buttonHandller.addButton(backToMenu);
+        //build canvas for control intro
+        canvasForControl=new Canvas();
+        label.setText("Control");
+        Button back2menu=new Button("Back To Menu",270,400,250,50);
+        back2menu.setCurrState(3);
+        back2menu.setStateTrans(0);
+        back2menu.setSize(30);
+        back2menu.setColour(textColor);
+        back2menu.setBgColoor(color);
+        canvasForControl.addComponent(defaultPanel);
+        canvasForControl.addComponent(label);
+        canvasForControl.addComponent(back2menu);
+        buttonHandller.addButton(back2menu);
         //init state
         stateController.setCurrentState(0);
 
@@ -129,13 +143,20 @@ public class Main extends PApplet {
                 fill(88,255,122);
                 rect(250,10,5*flightGameController.hp,20);
                 fill(1,255,255);
-                text("damage: "+flightGameController.damageLevel,350,20);
-                text("maneuverability: "+flightGameController.maneuverLevel,500,20);
+                text("damage: "+flightGameController.damageLevel,380,20);
+                text("maneuverability: "+flightGameController.maneuverLevel,550,20);
                 if(flightGameController.hp<=0){
                     stateController.setCurrentState(4);
                 }
                 break;
             case "control":
+                canvasForControl.draw();
+                fill(204,102,0);
+                textSize(30);
+                text("Use mouse cursor to move your plane",400,200);
+                text("Click mouse left button to fire",400,250);
+                text("Preventing foe reaching left edge or crashing ",400,300);
+                text("Collecting boxes for upgrading  ",400,350);
                 break;
 
             case "gameOver":
