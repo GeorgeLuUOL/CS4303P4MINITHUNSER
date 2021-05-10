@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CS4303P4:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="222bca45-fe15-4dbd-8908-e7d23018596a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CS4303P4_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/programme/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/programme/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/Artillery.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/pointer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/pointerR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/pointerT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/tankl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/tankr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Arrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Block$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/GameController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Shell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Sprite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/StageForArtillery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Tank$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Terrain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/ColideBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/RigidBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/Stage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/Texture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/programme/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/pointer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/pointerR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/pointerT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/tankl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/tankr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Artillery/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/META-INF/CS4303P4.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/Box$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/Box$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
-              <caret line="89" column="54" lean-forward="true" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+              <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
               <folding>
                 <element signature="e#2791#2792#0" expanded="true" />
                 <element signature="e#2850#2851#0" expanded="true" />
@@ -70,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="146" column="79" selection-start-line="146" selection-start-column="79" selection-end-line="146" selection-end-column="79" />
+            <state relative-caret-position="378">
+              <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -160,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-65" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
@@ -227,6 +268,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="E:/git/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -391,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620648828009</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="levelsystem">
+      <created>1620651696746</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620651696746</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +458,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42492917" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42492917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -655,7 +706,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
-          <caret line="89" column="54" lean-forward="true" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+          <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
           <folding>
             <element signature="e#2791#2792#0" expanded="true" />
             <element signature="e#2850#2851#0" expanded="true" />
@@ -673,17 +724,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="146" column="79" selection-start-line="146" selection-start-column="79" selection-end-line="146" selection-end-column="79" />
+        <state relative-caret-position="378">
+          <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CS4303P4:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
