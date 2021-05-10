@@ -7,44 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="222bca45-fe15-4dbd-8908-e7d23018596a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CS4303P4_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/Artillery.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/pointer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/pointerR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/pointerT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/tankl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Artillery_jar/src/data/tankr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Arrow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Block$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Block.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/GameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Shell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Sprite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/StageForArtillery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Tank$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Tank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/artillery/Terrain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/ColideBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/RigidBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/Stage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/gameobject/Texture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/com/lu/programme/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/pointer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/pointerR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/pointerT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/tankl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/data/tankr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Artillery/java/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/META-INF/CS4303P4.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/Box$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/Box$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/FoeFighter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/java/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINITHUNDER/CS4303P4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/boss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/box-damage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/box-hp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/box-man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/foe-fighter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/player-fighter.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-65" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
@@ -447,7 +417,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
