@@ -7,6 +7,7 @@ import com.lu.flight.PlayerFighter;
 import com.lu.flight.StageForFlight;
 import com.lu.uicomponent.*;
 import processing.core.PApplet;
+import processing.core.PImage;
 
 
 public class Main extends PApplet {
@@ -24,6 +25,7 @@ public class Main extends PApplet {
     Canvas canvas;
     Canvas canvasForGameOver;
     Canvas canvasForControl;
+    PImage cover;
 
 
     public void settings() {
@@ -52,38 +54,40 @@ public class Main extends PApplet {
         //yellow
         int[] color={249,255,31};
         //brown
-        int[] textColor={73,47,37};
+        int[] textColor={104,102,0};
         //build menu
         canvas=new Canvas();
 
-        Label label=new Label(400,100,"MINI THUNDER",50);
+        Label label=new Label(400,100,"",50);
         Panel defaultPanel=new Panel();
         label.setColour(textColor);
-        Button start=new Button("Start",300,200,200,50);
+        Button start=new Button("Start",300,300,200,50);
         start.setSize(30);
         start.setColour(textColor);
         start.setBgColoor(color);
         start.setCurrState(0);
         start.setStateTrans(1);
-        Button control=new Button("Control",300,500,200,50);
+        Button control=new Button("Control",300,550,200,50);
         control.setStateTrans(3);
         control.setSize(30);
         control.setCurrState(0);
         control.setColour(textColor);
         control.setBgColoor(color);
-        canvas.addComponent(defaultPanel);
+        //canvas.addComponent(defaultPanel);
         canvas.addComponent(label);
         canvas.addComponent(start);
         canvas.addComponent(control);
         buttonHandller.addButton(start);
         buttonHandller.addButton(control);
 
+        //cover image
+        cover= processing.loadImage("cover.png");
         // build canvas for gameOver interface
 
         canvasForGameOver=new Canvas();
         label=new Label(400,100,"GAME OVER",50);
         label.setColour(textColor);
-        Button backToMenu=new Button("Back To Menu",300,300,250,50){
+        Button backToMenu=new Button("Back To Menu",300,350,250,50){
             @Override
             public void trigger() {
                 flightGameController=new GameController(stageLevel,damageLevel,maneuverLevel);
@@ -101,7 +105,9 @@ public class Main extends PApplet {
         buttonHandller.addButton(backToMenu);
         //build canvas for control intro
         canvasForControl=new Canvas();
-        label.setText("Control");
+        label=new Label(400,100,"Control",50);
+        //label.setText("Control");
+        label.setColour(textColor);
         Button back2menu=new Button("Back To Menu",270,400,250,50);
         back2menu.setCurrState(3);
         back2menu.setStateTrans(0);
@@ -127,7 +133,9 @@ public class Main extends PApplet {
         switch (stateController.currentState.tag){
             case "menu":
                 stateController.setCurrentState(0);
+                processing.image(cover,0,0);
                 canvas.draw();
+
                 break;
             case "game":
 

@@ -14,7 +14,7 @@ public class Panel implements UIComponent {
 
     @Override
     public void draw() {
-        p.fill(230, 230, 230);
+        p.fill(1, 1, 1);
         p.rect(0,0,800,600);
 
     }
