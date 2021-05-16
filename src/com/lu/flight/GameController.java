@@ -171,7 +171,6 @@ public class GameController {
             }
         }
         //gc
-
         //for bullet
         for (Bullet b : bulletArr) {
             if (b.r.getX() > 800) {
