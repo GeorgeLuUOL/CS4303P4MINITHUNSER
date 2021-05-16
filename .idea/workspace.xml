@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="222bca45-fe15-4dbd-8908-e7d23018596a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MINITHUNDER/CS4303P4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/bg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/boss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/box-damage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/box-hp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/box-man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/foe-fighter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MINITHUNDER/data/player-fighter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/programme/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,24 +23,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Aircraft.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lu/flight/GameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="94" column="131" selection-start-line="94" selection-start-column="131" selection-end-line="94" selection-end-column="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Button.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
@@ -58,11 +34,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
+            <state relative-caret-position="136">
               <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
               <folding>
+                <element signature="e#2753#2754#0" expanded="true" />
                 <element signature="e#2791#2792#0" expanded="true" />
+                <element signature="e#2820#2821#0" expanded="true" />
                 <element signature="e#2850#2851#0" expanded="true" />
+                <element signature="e#2881#2882#0" expanded="true" />
                 <element signature="e#2933#2934#0" expanded="true" />
               </folding>
             </state>
@@ -70,9 +49,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/Texture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-786">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-440">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Background.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="286">
               <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
@@ -81,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -90,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="202">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="506">
               <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
             </state>
           </provider>
@@ -162,16 +159,16 @@
         <option value="$PROJECT_DIR$/src/com/lu/gameobject/Stage.java" />
         <option value="$PROJECT_DIR$/src/com/lu/flight/PlayerFighter.java" />
         <option value="$PROJECT_DIR$/src/com/lu/flight/Box.java" />
-        <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Button.java" />
         <option value="$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java" />
         <option value="$PROJECT_DIR$/src/com/lu/flight/GameController.java" />
         <option value="$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java" />
+        <option value="$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java" />
         <option value="$PROJECT_DIR$/src/com/lu/programme/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-65" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
@@ -183,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +215,13 @@
               <item name="CS4303P4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lu" type="462c0819:PsiDirectoryNode" />
+              <item name="gameobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS4303P4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS4303P4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lu" type="462c0819:PsiDirectoryNode" />
               <item name="programme" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,6 +235,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -412,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620651696746</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="final release">
+      <created>1621131835992</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1621131835992</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -503,17 +514,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="button,label" />
     <MESSAGE value="levelsystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="levelsystem" />
+    <MESSAGE value="final release" />
+    <option name="LAST_COMMIT_MESSAGE" value="final release" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/GameController.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/Texture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Arrow.java" />
     <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Block.java" />
     <entry file="file://$PROJECT_DIR$/src/com/lu/artillery/Shell.java" />
@@ -526,24 +531,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/out/artifacts/Artillery_jar/Artillery.jar!/processing/core/PApplet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1897">
-          <caret line="5909" column="16" selection-start-line="5909" selection-start-column="16" selection-end-line="5909" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/out/artifacts/Artillery_jar/Artillery.jar!/processing/core/PApplet.class" />
     <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/ColideBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -627,6 +619,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="94" column="131" selection-start-line="94" selection-start-column="131" selection-end-line="94" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Button.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -634,13 +633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Background.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -660,41 +656,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/ButtonHandller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="506">
           <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="94" column="131" selection-start-line="94" selection-start-column="131" selection-end-line="94" selection-end-column="131" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/flight/FoeFighter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="136">
           <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
           <folding>
+            <element signature="e#2753#2754#0" expanded="true" />
             <element signature="e#2791#2792#0" expanded="true" />
+            <element signature="e#2820#2821#0" expanded="true" />
             <element signature="e#2850#2851#0" expanded="true" />
+            <element signature="e#2881#2882#0" expanded="true" />
             <element signature="e#2933#2934#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lu/flight/Background.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="-440">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/gameobject/Texture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-786">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lu/uicomponent/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/programme/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+        <state relative-caret-position="220">
+          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="34" />
         </state>
       </provider>
     </entry>
