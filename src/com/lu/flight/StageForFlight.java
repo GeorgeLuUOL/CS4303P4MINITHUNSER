@@ -14,6 +14,9 @@ public class StageForFlight extends Stage {
         if(r.getTag().equals("bullet")&&r.getX()>900){
             this.removeRigidBody(r);
         }
+        if(r.getTag().equals("foeBullet")&&r.getX()<-100){
+            this.removeRigidBody(r);
+        }
     }
 
     }

@@ -19,6 +19,7 @@ public class GameController {
     Background bg;
     PlayerFighter pf;
     ArrayList<Bullet> bulletArr = new ArrayList(50);
+    ArrayList<FoeBullet> foeBulletArr = new ArrayList(50);
     ArrayList<FoeFighter> foeFighterArr = new ArrayList<>(50);
     ArrayList<Box> boxArr = new ArrayList<>(20);
     FoeFighter ft;
@@ -57,7 +58,7 @@ public class GameController {
         }
         level = score / 10;
         //adding box randomly
-        if (timmer % 200 == 0) {
+        if (timmer % 150 == 0) {
             double r1=Math.random();
             if (r1 <= 0.2) {
 
@@ -101,7 +102,18 @@ public class GameController {
             stage.addRigidBody(ft.r);
 
         }
-
+        //boss can fire at player
+        if(timmer%20==0){
+        for (FoeFighter f : foeFighterArr){
+            if(f.boss){
+                double rad=  Math.atan2(f.r.getY()-pf.r.getY(),pf.r.getX()-f.r.getX());
+                int angle= (int)Math.toDegrees(rad);
+                System.out.println(angle);
+                FoeBullet fb=new FoeBullet(f.r.getX(),f.r.getY()+50,angle);
+                foeBulletArr.add(fb);
+                stage.addRigidBody(fb.r);
+            }
+        }}
         //inc score when foe shot down
         //dec hp if foe pass the line
         for (FoeFighter f : foeFighterArr) {
@@ -169,7 +181,15 @@ public class GameController {
         if (timmer % 60 == 0) {
             bulletArr = new ArrayList<>();
             stage.gc("bullet");
-            //System.out.println(stage.size()+" size");
+        }
+        for (FoeBullet b : foeBulletArr) {
+            if (b.r.getX() < 0) {
+                b.explode();
+            }
+        }
+        if (timmer % 60 == 0) {
+            foeBulletArr = new ArrayList<>();
+            stage.gc("foeBullet");
         }
 
         //show collider

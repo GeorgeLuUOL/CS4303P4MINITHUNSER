@@ -20,10 +20,11 @@ public class PlayerFighter extends Aircraft {
         r=new RigidBody(t){
             @Override
             public void onCollision(RigidBody r) {
-                if(r.getTag().equals("foe")){
+                if(r.getTag().equals("foe")||r.getTag().equals("foeBullet")){
                     hp--;
                     //System.out.println("collision");
                 }
+
             }
         };
         r.setTag("player");
