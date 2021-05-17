@@ -7,18 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="222bca45-fe15-4dbd-8908-e7d23018596a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lu/flight/FoeBullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS4303P4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GAME.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/README.TXT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/PlayerFighter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/PlayerFighter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/PlayerFighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/PlayerFighter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/StageForFlight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4303P4/com/lu/flight/StageForFlight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/flight/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/flight/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/flight/PlayerFighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/flight/PlayerFighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/flight/StageForFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/flight/StageForFlight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAME.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GAME.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lu/flight/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1552">
-              <caret line="109" column="52" lean-forward="true" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
+            <state relative-caret-position="166">
+              <caret line="172" column="12" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -176,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-65" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
@@ -426,12 +415,25 @@
       <option name="project" value="LOCAL" />
       <updated>1621131835992</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="final release">
+      <created>1621191576435</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621191576436</updated>
+    </task>
+    <task id="LOCAL-00021" summary="final release">
+      <created>1621191693501</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1621191693501</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -442,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42492917" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42492917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -723,8 +725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lu/flight/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1552">
-          <caret line="109" column="52" lean-forward="true" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
+        <state relative-caret-position="166">
+          <caret line="172" column="12" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
         </state>
       </provider>
     </entry>
