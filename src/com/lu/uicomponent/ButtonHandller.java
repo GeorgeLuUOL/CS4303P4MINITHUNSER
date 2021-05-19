@@ -28,7 +28,7 @@ public class ButtonHandller {
             &&b.y<=mouseY&&mouseY<=(b.y+b.height)
             &&stateController.getCurrentState()==b.getCurrState()){
                 b.setHang(true);
-                if(p.mouseButton==37){
+                if(p.mousePressed&&p.mouseButton==37){
                     stateController.setCurrentState(b.stateTrans);
                     b.trigger();
                 }
